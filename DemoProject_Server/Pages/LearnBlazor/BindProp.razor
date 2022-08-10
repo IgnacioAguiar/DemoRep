@@ -1,0 +1,21 @@
+﻿@page "/learnBlazor/bindProp"
+
+<h3>BindProp</h3>
+Name:@product.Name<br/>
+Active:@product.IsActive<br/>
+Price:@product.Price<br/>
+
+Price:<input type='number' value="@product.Price" />
+
+<SurveyPrompt Title=Test_Test />
+
+Price:<input type='number' value="@product.Price" />
+@code {
+    DemoProject_Models.LearnBlazerModels.Demo_Product product = new()
+        {
+            Id = 1,
+            Name = "Rose Candle",
+            IsActive = true,
+            Price= 10.99
+        };
+}
