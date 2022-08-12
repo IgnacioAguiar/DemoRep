@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoProject_Server", "DemoP
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoProject_Client", "DemoProject_Client\DemoProject_Client.csproj", "{6FCB74D6-FCB1-43E7-B9F7-234088B15A8D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoProject_Models", "DemoProject_Models\DemoProject_Models.csproj", "{45CA23DA-24AC-44D1-84E6-8DD57B83CE9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoProject_Models", "DemoProject_Models\DemoProject_Models.csproj", "{45CA23DA-24AC-44D1-84E6-8DD57B83CE9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
